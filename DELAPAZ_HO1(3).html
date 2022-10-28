@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playlist – 3 am</title>
+        <link rel="shortcut icon" type="x-icon" href="images/spotify (1).png">
+    </head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 135vh;
+            width: 100%;
+            background-image: linear-gradient(#7a7a7a, #000);
+        }
+
+        .container {
+            display: flex;
+            height: 135vh;
+            width: 100%;
+        }
+
+        #go-back {
+            width: 35px;
+            height: 35px;
+            padding-top: 7px;
+            margin-left: -200px;
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 50%;
+            border: 1px solid #000;
+            text-decoration: none;
+            background-color: #9a9a9a;
+            transition: 1s;
+        }
+        #go-back:hover {
+            background-color: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+
+        
+
+        #playlist-cover {
+            width: 200px;
+            height: 200px;
+            margin: 80px 100px;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 5px 7px 10px rgba(0,0,0,0.50);
+        }
+
+        #profile-cover {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: -30px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 120px 170px;
+            font-family: 'arial black';
+            font-size: 50px;
+            font-weight: bold;
+            color: #b9b9b9;
+        }
+
+        #profile {
+            margin: 230px -200px;
+            font-size: 15px;
+            color: #b9b9b9;
+        }
+
+        #description {
+            margin-top: 220px;
+            margin-left: -300px;
+            font-size: 15px;
+            font-family: monospace;
+            letter-spacing: -1px;
+            color: #b9b9b9;
+        }
+
+        span a{
+            text-decoration: none;
+            color: #b9b9b9;
+            transition: 00.15s;
+        }
+        span a:hover {
+            opacity: 0.3;
+        }
+        span a:active {
+            opacity: 0.8;
+        }
+
+        #playlists {
+            margin: 350px -20px;
+        }
+
+        #playlists ol li {
+            color: #b9b9b9;
+            line-height: 50px;
+        }
+
+        #playlists ol li a{
+            color: #b9b9b9;
+            text-decoration: none;
+            transition: 0.15s;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        #playlists ol li a:hover {
+            opacity: 0.3;
+        }
+        #playlists ol li a:active {
+            opacity: 0.8;
+        }
+        img {
+            width: 40px;
+            vertical-align: -35px;
+            margin: 20px 10px;
+            cursor: pointer;
+        }
+
+        #artists {
+            margin: 335px 250px;
+            
+        }
+        #artists ul li {
+            line-height: 48px;
+            margin: 30px;
+            list-style: none;
+        }
+        #artists ul li a {
+            color: #b9b9b9;
+            font-family: monospace;
+            font-size: 12px;
+            text-decoration: none;
+            transition: 0.15s;
+        }
+        #artists ul li a:hover {
+            text-decoration: underline;
+        }
+        #playlists ol li a:active {
+            opacity: 0.8;
+        }
+
+        #time{
+            margin: -800px 300px;
+        }
+        
+        #time ul li {
+            line-height: 50px;
+            margin: 30px;
+            list-style: none;
+            color: #b9b9b9;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <img src="images/playlist-cover(3).jpeg" id="playlist-cover">
+                <a href="DELAPAZ_HO1(1).html" id="go-back" title="Go Back"><</a>
+                    <h1>3 am</h1>
+                        <p id="description">You're my 3 am thoughts</p>
+                            <p id="profile"><img src="images/profile-cover.jpg" id="profile-cover"><span><a href="https://open.spotify.com/user/22nqhaqoi33lm3mwg5f5mbbaq?si=ab555c4f9d4e4bf7" target="_blank">kleo</a></span> &bullet; 10 songs, 40 min 41 sec</p>
+
+            <div id="playlists">
+                <ol>
+                    <li><img src="images/Selena Gomez.png"><a href="https://open.spotify.com/track/4l0Mvzj72xxOpRrp6h8nHi?si=64cf3db04259481f" target="_blank" title="Play Lose You To Love Me by Jesse McCartney"> &nbsp; Lose You To Love Me</a></li>
+
+                    <li><img src="images/Daniel Caesar.png"><a href="https://open.spotify.com/track/7zFXmv6vqI4qOt4yGf3jYZ?si=8925076ef7164288" target="_blank" title="Play Get You by Daniel Caesar"> &nbsp; Get You</a></li>
+
+                    <li><img src="images/Post Malone.png"><a href="https://open.spotify.com/track/75ZvA4QfFiZvzhj2xkaWAh?si=8ad23c9481e040c5iel" title="Play I Fall Apart by Post Malone"> &nbsp; I Fall Apart</a></li>
+
+                    <li><img src="images/Juice WRLD.png"><a href="https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR?si=9b5b9c7e3cef4e57" target="_blank" title="Play Lucid Dreams Juice WRLD"> &nbsp; Lucid Dreams</a></li>
+
+                    <li><img src="images/Russ.png"><a href="https://open.spotify.com/track/4cxMGhkinTocPSVVKWIw0d?si=afbd8777308f4470" target="_blank" title="Play Losing Control by Russ"> &nbsp; Losing Control</a></li>
+
+                    <li><img src="images/Joji.png"><a href="https://open.spotify.com/track/5F1ZmucV0uJY14y2dYKePa?si=53cf49dddca944cd" target="_blank" title="Play Sanctuary by Joji"> &nbsp; Sanctuary</a></li>
+
+                    <li><img src="images/Justin Bieber.png"><a href="https://open.spotify.com/track/6I3mqTwhRpn34SLVafSH7G?si=21c71269cc3a4f4a" target="_blank" title="Play Ghost Soul by Justin Bieber"> &nbsp; Ghost</a></li>
+
+                    <li><img src="images/Adie.png"><a href="https://open.spotify.com/track/5Hm2MJQ4ECvQmH5QWCMQrR?si=bda033dadbbe4569" target="_blank" title="Play Paraluman by Adie"> &nbsp; Paraluman</a></li>
+
+                    <li><img src="images/Unique.png"><a href="https://open.spotify.com/track/24bmXekGRqVFRlPYdfzyJr?si=cf309a4c337045ca" target="_blank" title="Play Midnight Sky by Unique Salonga"> &nbsp; Midnight Sky</a></li>
+
+                    <li><img src="images/Munimuni.png"><a href="https://open.spotify.com/track/1tC2PLqLeJXt0VlgOYpc6m?si=d81721c67a0546e5" target="_blank" title="Play Bawat Piyesa by Munimuni"> &nbsp; Bawat Piyesa</a></li>
+                </ol>
+            </div>
+                <div id="artists">
+                    <ul>
+                        <li><a href="https://open.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?si=-163pRB-SROqwklvRBppaA" target="_blank">Selena Gomez</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA?si=7WEzMCw6T5KRo2DS3OFkog" target="_blank">Daniel Caesar</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60?si=yFG5fmUoTpKJmH_2lhpiqQ" target="_blank">Post Malone</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/5PokPZn11xzZXyhttps://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz?si=oZU0ETUUQfug8hmKeMPCWQ" target="_blank">Juice WRLD</a></li>
+                        
+                        <li><a href="https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS?si=QXL5zJonQ6Wtdy__yvOekQ" target="_blank">Russ</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/3MZsBdqDrRTJihTHQrO6Dq?si=BLaYUpHyQuqfNUeI10zUlQ" target="_blank">Joji</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s?si=1tPGi3yvT-S1QSCM74EjkA" target="_blank">Justin Bieber</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/1DlYnIiliftt6R21Y5NOW2?si=SCPXgGsRRiagW0S-teq96g">Adie</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/30mZI7Hw2MhoarTVYxfyZM?si=Sd-msDSySzG38_J8N5qa3Q" target="_blank">Unique Salonga</a></li>
+
+                        <li><a href="https://open.spotify.com/artist/4eKq7eArL96wSQjaaMg9Ic?si=sYYxJ8IQR8uPLIVGVz-baw" target="_blank">Munimuni</a></li>
+                    </ul>
+                <div id="time">
+                    <ul>
+                        <li>3:26</li>
+                        <li>4:38</li>
+                        <li>3:43</li>
+                        <li>3:59</li>
+                        <li>3:57</li>
+                        <li>3:00</li>
+                        <li>2:23</li>
+                        <li>5:52</li>
+                        <li>4:04</li>
+                        <li>6:26</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playlist – Great Escape</title>
+        <link rel="shortcut icon" type="x-icon" href="images/spotify (1).png">
+    </head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 135vh;
+            width: 100%;
+            background-image: linear-gradient(#7a7a7a, #000);
+        }
+
+        .container {
+            display: flex;
+            height: 125vh;
+            width: 100%;
+        }
+
+        #go-back {
+            width: 35px;
+            height: 35px;
+            padding-top: 7px;
+            margin-left: -200px;
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 50%;
+            border: 1px solid #000;
+            text-decoration: none;
+            background-color: #9a9a9a;
+            transition: 1s;
+        }
+        #go-back:hover {
+            background-color: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+
+        
+
+        #playlist-cover {
+            width: 200px;
+            height: 200px;
+            margin: 80px 100px;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 5px 7px 10px rgba(0,0,0,0.50);
+        }
+
+        #profile-cover {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: -30px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 120px 170px;
+            font-family: 'arial black';
+            font-size: 50px;
+            font-weight: bold;
+            color: #b9b9b9;
+        }
+
+        #profile {
+            margin: 230px -200px;
+            font-size: 15px;
+            color: #b9b9b9;
+        }
+
+        #description {
+            margin-top: 220px;
+            margin-left: -530px;
+            font-size: 15px;
+            font-family: monospace;
+            letter-spacing: -1px;
+            color: #b9b9b9;
+        }
+
+        span a{
+            text-decoration: none;
+            color: #b9b9b9;
+            transition: 00.15s;
+        }
+        span a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+        span a:active {
+            opacity: 0.8;
+        }
+
+        #playlists {
+            margin: 350px -20px;
+        }
+
+        #playlists ol li {
+            color: #b9b9b9;
+            line-height: 50px;
+        }
+
+        #playlists ol li a{
+            color: #b9b9b9;
+            text-decoration: none;
+            transition: 0.15s;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        #playlists ol li a:hover {
+            opacity: 0.3;
+        }
+        #playlists ol li a:active {
+            opacity: 0.8;
+        }
+        img {
+            width: 40px;
+            vertical-align: -35px;
+            margin: 20px 10px;
+            cursor: pointer;
+        }
+
+        #artists {
+            margin: 330px 200px;
+            
+        }
+        #artists ul li {
+            line-height: 49px;
+            margin: 30px;
+            list-style: none;
+        }
+        #artists ul li a {
+            color: #b9b9b9;
+            font-family: monospace;
+            font-size: 12px;
+            text-decoration: none;
+            transition: 0.15s;
+        }
+        #artists ul li a:hover {
+            text-decoration: underline;
+        }
+        #playlists ol li a:active {
+            opacity: 0.8;
+        }
+
+        #time{
+            margin: -800px 300px;
+        }
+        #time ul li {
+            line-height: 50px;
+            margin: 30px;
+            list-style: none;
+            color: #b9b9b9;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <img src="images/playlist-cover(1).jpg" id="playlist-cover">
+                <a href="DELAPAZ_HO1(1).html" id="go-back" title="Go Back"><</a>
+                    <h1>Great Escape</h1>
+                        <p id="description">Windows down, music up.</p>
+                            <p id="profile"><img src="images/profile-cover.jpg" id="profile-cover"><span><a href="https://open.spotify.com/user/22nqhaqoi33lm3mwg5f5mbbaq?si=ab555c4f9d4e4bf7" target="_blank">kleo</a></span> &bullet; 10 songs, 40 min 41 sec</p>
+
+            <div id="playlists">
+                <ol>
+                    <li><img src="images/Jesse McCartney.png"><a href="https://open.spotify.com/track/3MEt5KPNRD7RpE8BnvJe6B?si=02a01053f0954996" target="_blank" title="Play Just So You Know by Jesse McCartney"> &nbsp; Just So You Know</a></li>
+                    <li><img src="images/Stephen Speaks.png"><a href="https://open.spotify.com/track/4VoJCUgNmnqG2qF0peDBkw?si=2e5c168960ae4074" target="_blank" title="Play Out of my League by Stephen Speaks"> &nbsp; Out of My League</a></li>
+                    <li><img src="images/Daniel Powter.png"><a href="https://open.spotify.com/track/0mUyMawtxj1CJ76kn9gIZK?si=c8f4d283e2a44099" target="_blank" title="Play Bad Day by Daniel Powter"> &nbsp; Bad Day</a></li>
+                    <li><img src="images/Lifehouse.png"><a href="https://open.spotify.com/track/0815caqt2Lytro5EIzMufT?si=0b3fb675c4ea4262" target="_blank" title="Play You and Me by Lifehouse"> &nbsp; You and Me</a></li>
+                    <li><img src="images/FM Static.png"><a href="https://open.spotify.com/track/4BodkdQk2Ouo6BFbLqoWtG?si=f9fb10761cdc4fd8" target="_blank" title="Play Tonight by FM Static"> &nbsp; Tonight</a></li>
+                    <li><img src="images/The Script.png"><a href="https://open.spotify.com/track/0Sayb1EWTywPttwJo7zjBt?si=20abc66dacb64873" target="_blank" title="Play Sic Degrees of Separation by The Script"> &nbsp; Six Degrees of Separation</a></li>
+                    <li><img src="images/Keiko Necesario.png"><a href="https://open.spotify.com/track/7Ce3NrCW3OHYhRR70XtQZU?si=1f2df2a89de74e02" target="_blank" title="Play Beautiful Soul by Jesse McCartney"> &nbsp; Away from the Current</a></li>
+                    <li><img src="images/Stephen Speaks.png"><a href="https://open.spotify.com/track/2PTzfXh5Ut3hjRrWGyafz6?si=4f406f60393e4097" target="_blank" title="Play Passenger Seat by Stephen Speaks"> &nbsp; Passenger Seat</a></li>
+                    <li><img src="images/Hale.png"><a href="https://open.spotify.com/track/0HZ3OUVrGHxttD2EuHqRm3?si=33b85426c3b148da" target="_blank" title="Play The Day You Said Goodnight by Hale"> &nbsp; The Day You Said Goodnight</a></li>
+                    <li><img src="images/The Goo Goo Dolls.png"><a href="https://open.spotify.com/track/6vrUTGn5p8IrfTZ0J6sIVM?si=656cc0799d904d2f" target="_blank" title="Play Iris by The Goo Goo Dolls"> &nbsp; Iris</a></li>
+                </ol>
+            </div>
+                <div id="artists">
+                    <ul>
+                        <li><a href="https://open.spotify.com/artist/2Hjj68yyUPiC0HKEOigcEp?si=mY5QGTKkQDGq2uLnnQvtRQ" target="_blank">Jesse McCartney</a></li>
+                        <li><a href="https://open.spotify.com/artist/0AvtzKTYleNqdJXoZasQWG?si=TdUU9tD_SXCJIP9U3H2S9g" target="_blank">Stephen Speaks</a></li>
+                        <li><a href="https://open.spotify.com/artist/7xTcuBOIAAIGDOSvwYFPzk?si=ZX8np2BgTGumFkU7To_61g" target="_blank">Daniel Powter</a></li>
+                        <li><a href="https://open.spotify.com/artist/5PokPZn11xzZXyXSfnvIM3?si=sykbQRS3QCmAD-wCH40GEA" target="_blank">Lifehouse</a></li>
+                        <li><a href="https://open.spotify.com/artist/043r4OwwUAYREkBLK5jAiV?si=Deb7eFluRZS9-pAtG_ttSg" target="_blank">FM Static</a></li>
+                        <li><a href="https://open.spotify.com/artist/3AQRLZ9PuTAozP28Skbq8V?si=gJdttNAmQ02yVNF26Dj70Q" target="_blank">The Script</a></li>
+                        <li><a href="https://open.spotify.com/artist/0DouUeF604QbSdKYIL3xrq?si=wEhn8X7-TUGYQVfqdaCIiQ" target="_blank">Keiko Necesario</a></li>
+                        <li><a href="https://open.spotify.com/artist/0AvtzKTYleNqdJXoZasQWG?si=rdFVGAASRBKwylvb7Xxj5g">Stephen Speaks</a></li>
+                        <li><a href="https://open.spotify.com/artist/6Ww3OMFzCaO33ulKh1LBFN?si=Q4wuCWXPQ3-PT3BhpSUTCQ" target="_blank">Hale</a></li>
+                        <li><a href="https://open.spotify.com/artist/2sil8z5kiy4r76CRTXxBCA?si=Ed_RhYAXT862VpwH41hFCg" target="_blank">The Goo Goo Dolls</a></li>
+                    </ul>
+                <div id="time">
+                    <ul>
+                        <li>3:53</li>
+                        <li>3:38</li>
+                        <li>3:53</li>
+                        <li>3:15</li>
+                        <li>3:38</li>
+                        <li>3:52</li>
+                        <li>4:13</li>
+                        <li>4:34</li>
+                        <li>4:51</li>
+                        <li>4:49</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
